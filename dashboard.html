@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>KyauVid by Grayson</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🎬 KyauVid by Grayson</h1>
+    <input type="file" id="uploadFile" accept="image/*" />
+    <button id="enhanceBtn" onclick="enhance()">✨ Enhance with AI</button>
+    <div id="loading" style="display:none;">⏳ Enhancing… Please wait</div>
+    <div class="result-section" id="resultSection" style="display:none;">
+      <h3>✅ Enhanced Result</h3>
+      <img id="resultImage" width="100%" />
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
